@@ -55,12 +55,4 @@ While tools like Shader Graph are powerful for prototyping, I dedicated this stu
 
 ---
 
-## 🔗 About Me
-
-**Thales Farah**
-* **Technical Artist | Unity Developer**
-* **Portfolio:** [ArtStation](https://thalesfarah.artstation.com/)
-* **LinkedIn:** [Connect with me](https://linkedin.com/in/thalesfarah)
-
----
 *Shared under the MIT License - "To understand the tool, you must first understand the code."*
