@@ -12,7 +12,7 @@ This repository is a collection of custom shaders developed as part of my **Acad
 
 *The following effects were implemented to study specific rendering challenges:*
 
-1. **Linear UV Gradient Controller:** A fundamental study on texture coordinate (UV) manipulation through raw code. This shader implements a manual linear function within the Fragment Shader (f(x)=ax+b) to generate dynamic gradients.![ShaderA](https://github.com/user-attachments/assets/535859ea-e21b-460c-b839-9453efa90d16)
+1. **Linear UV Gradient Controller:** A fundamental study on texture coordinate (UV) manipulation through raw code. This shader implements a manual linear function within the Fragment Shader (f(x)=ax+b) to generate dynamic gradients. ![ShaderA](https://github.com/user-attachments/assets/71c72801-cbb1-4d34-9faf-3717c77d4ea8)
 2. **Diagonal Multi-Color Interpolator:** A technical exploration of diagonal color blending and non-linear interpolation. This shader calculates the difference between UV axes (U−V) to create a diagonal gradient, then applies a quadratic function (diff2) to achieve smoother, non-linear color transitions.
 3. **Bi-Directional Coordinate Blender:** IA more complex study on coordinate-based color layering. This shader generates two independent linear gradients by calculating both the sum (U+V) and the difference (U−V) of texture coordinates. These gradients are then assigned to specific color channels (Magenta and Cyan) and blended additively.
 4. **Sinusoidal Coordinate Wave:** This shader introduces trigonometric functions into the graphics pipeline to create procedural patterns. By wrapping a diagonal linear equation (U−V) inside a sin() function, it generates a repeating wave pattern across the surface of the mesh.
