@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MaterialHologram
-  m_Shader: {fileID: 4800000, guid: 77cf6b58bcd33b243a122479b5f3998c, type: 3}
+  m_Shader: {fileID: 4800000, guid: bb8a45b343e6ad54db83d3d59e5a19dc, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -39,6 +39,6 @@ Material:
     m_Colors:
     - _Color: {r: 0.3684146, g: 1.7207953, b: 0.12175435, a: 1}
     - _Fresnel: {r: 0.04946358, g: 1.4980391, b: 0.319537, a: 1}
-    - _FresnelColor: {r: 1014.3396, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 3.211117, g: 3.1841993, b: 0.1969082, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
