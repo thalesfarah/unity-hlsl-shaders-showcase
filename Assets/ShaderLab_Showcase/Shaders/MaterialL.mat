@@ -62,7 +62,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _A: 1
-    - _B: -8
+    - _B: -15
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

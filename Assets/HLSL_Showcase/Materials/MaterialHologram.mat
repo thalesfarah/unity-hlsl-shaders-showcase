@@ -33,11 +33,11 @@ Material:
     - _B: -5
     - _Glossiness: 0.5
     - _Metallic: 1
-    - _Scale: 15
-    - _Slider: 0
-    - _Speed: 0.5
+    - _Scale: 48.29
+    - _Slider: 10
+    - _Speed: -11.4
     m_Colors:
-    - _Color: {r: 0.3684146, g: 1.7207953, b: 0.12175435, a: 1}
+    - _Color: {r: 0.0013801551, g: 0.032510333, b: 0.005849632, a: 1}
     - _Fresnel: {r: 0.04946358, g: 1.4980391, b: 0.319537, a: 1}
     - _FresnelColor: {r: 3.211117, g: 3.1841993, b: 0.1969082, a: 1}
   m_BuildTextureStacks: []
