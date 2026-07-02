@@ -1,4 +1,4 @@
-![ShaderK](https://github.com/user-attachments/assets/d1d5a9fa-82b2-4f46-bca7-eb8217700468)# Unity HLSL Shaders Showcase 🧪📚
+# Unity HLSL Shaders Showcase 🧪📚
 
 ![Unity](https://img.shields.io/badge/Unity-6.3.9f1-black?logo=unity)
 ![Status](https://img.shields.io/badge/Status-Academic%20Study-brightgreen)
@@ -12,7 +12,7 @@ This repository is a collection of custom shaders developed as part of my **Acad
 
 *The following effects were implemented to study specific rendering challenges:*
 
-1. **Linear UV Gradient Controller:** A fundamental study on texture coordinate (UV) manipulation through raw code. This shader implements a manual linear function within the Fragment Shader (f(x)=ax+b) to generate dynamic gradients. ![ShaderA](https://github.com/user-attachments/assets/71c72801-cbb1-4d34-9faf-3717c77d4ea8)
+1. **Linear UV Gradient Controller:** A fundamental study on texture coordinate (UV) manipulation through raw code. This shader implements a manual linear function within the Fragment Shader (f(x)=ax+b) to generate dynamic gradients. ![ShaderA](<img width="3840" height="2160" alt="Recording_ShaderA" src="https://github.com/user-attachments/assets/5bfdbe23-1d85-47c3-8f35-8069b4224d99" />)
 2. **Diagonal Multi-Color Interpolator:** A technical exploration of diagonal color blending and non-linear interpolation. This shader calculates the difference between UV axes (U−V) to create a diagonal gradient, then applies a quadratic function (diff2) to achieve smoother, non-linear color transitions.![ShaderB](https://github.com/user-attachments/assets/d80b6411-5217-47a6-9f5b-69f080a04f97)
 3. **Bi-Directional Coordinate Blender:** IA more complex study on coordinate-based color layering. This shader generates two independent linear gradients by calculating both the sum (U+V) and the difference (U−V) of texture coordinates. These gradients are then assigned to specific color channels (Magenta and Cyan) and blended additively.![ShaderC](https://github.com/user-attachments/assets/053c3c21-d2e1-4991-ab02-7fcbdf36cf17)
 4. **Sinusoidal Coordinate Wave:** This shader introduces trigonometric functions into the graphics pipeline to create procedural patterns. By wrapping a diagonal linear equation (U−V) inside a sin() function, it generates a repeating wave pattern across the surface of the mesh.![ShaderD](https://github.com/user-attachments/assets/712e88af-5b9d-4fd7-9a3f-f599d035f9a9)
