@@ -92,7 +92,7 @@ Material:
     - _MoveSpeed: 0.1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PulseSpeed: 0.1
+    - _PulseSpeed: 1
     - _Rotation: 0
     - _Slider: 1.43
     - _Slider1: 1.11

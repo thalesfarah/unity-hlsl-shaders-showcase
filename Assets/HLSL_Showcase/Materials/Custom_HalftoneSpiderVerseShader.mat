@@ -33,17 +33,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CellDensity: -2.38
-    - _DotSize: 0.639
+    - _CellDensity: -1.38
+    - _DotSize: 0.623
     - _Glossiness: 0.5
-    - _HalftonePower: 0.75
+    - _HalftonePower: 1.64
     - _Metallic: 1
     - _RemapInputMax: 0.094
     - _RemapInputMin: 0
     - _RemapOutputMax: 0
     - _RemapOutputMin: 0.041
     - _RimPower: 0
-    - _Scale: 22.27
+    - _Scale: 25
     - _Step: 0.614
     - _VoronoiAngle: 0
     m_Colors:
